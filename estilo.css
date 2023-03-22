@@ -1,0 +1,36 @@
+.foto {
+    max-width: 200px;
+    border: 5px solid blue;
+    border-radius: 100%;
+}
+
+body {
+    background-color: azure;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Abaixo é a estilização do menu */
+
+.menu {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: blue;
+}
