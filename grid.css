@@ -1,0 +1,16 @@
+.grid-coluna {
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+}
+
+.grid-linha {
+	grid-template-rows: 50px 100px 50px 150px;
+}
+
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+

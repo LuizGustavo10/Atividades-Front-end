@@ -9,7 +9,7 @@ body {
     text-align: center;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
@@ -33,4 +33,25 @@ ul{
 
 .menu ul li a:hover {
     background-color: blue;
+    font-size: 20px;
+    transition-duration: 5s;
+}
+
+.tabela{
+    align: center;
+    text-align: center;
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    
+}
+
+.dev{
+    align-content: center;
+}
+
+.tabela tr td:hover {
+    font-size: 20px;
+    color:aqua;
+    animation: alternate-reverse;
 }
