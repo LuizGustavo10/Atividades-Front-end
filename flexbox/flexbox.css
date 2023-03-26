@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+.flexbox-container {
+    width: 100%;
+    height: auto;
+    display: flex; /*Deixa lado a lado de maneira flexivel, responsiva*/
+    flex-wrap: wrap; /*quebra de linha no responsívo */
+    justify-content: center;
+
+}
+.flexbox {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 15px;
+    margin: 2%;
+    /* line-height: 200px; */
+    text-overflow: initial;
+    color: white;
+    text-align: center;
+
+}
