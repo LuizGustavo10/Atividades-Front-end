@@ -1,5 +1,5 @@
 .foto {
-    max-width: 200px;
+    width:200px;
     border: 5px solid blue;
     border-radius: 100%;
 }
@@ -38,7 +38,6 @@ ul {
 }
 
 .tabela{
-    align: center;
     text-align: center;
     background-color: blueviolet;
     font-family: 'Courier New', Courier, monospace;
