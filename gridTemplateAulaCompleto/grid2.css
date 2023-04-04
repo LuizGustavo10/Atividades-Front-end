@@ -1,9 +1,10 @@
-body, p   {
+body,
+p   {
     padding: 0;
     margin: 0;
     font-size: 1.5rem;      /* tamanho da fonte */
-    font-style: italic;     /* estilo */
-    color: rgb(80, 78, 78); /* cor do texto */
+    font-style: normal;     /* estilo */
+    color: rgb(0, 0, 0); /* cor do texto */
     text-align: center;     /* alinhamento */
 }
 
@@ -37,6 +38,7 @@ section {
     grid-area: rodape;
     display: flex;
     justify-content: space-evenly;
+
  }
  .parte1, .parte2, .parte3 {
     width: 25%;
@@ -48,10 +50,15 @@ section {
     margin: 0 2px;
  }
 
- /* .parte3 {
+ .parte3 {
     margin: 0;
- } */
+ }
 
+ .imagem {
+    border: 5px solid rgb(255, 212, 212);
+    border-radius: 40px;
+    width: 200px;
+ }
 
 
  @media(max-width: 992px) {
@@ -68,11 +75,11 @@ section {
 
     .parte1, .parte2, .parte3 {
         margin: 0;
-        width: 50%;
+        border: solid 1px #fff;
+        width: 49%;
     }
 
     .parte2 {
-        margin: 0;
         width: 100%;
         order: -1;
     }
@@ -90,5 +97,5 @@ section {
 
     .parte2 {
         order: initial;  
-    }
+    } 
  }
